@@ -78,7 +78,7 @@ body {
 
 /*===========HEADER==========*/
 .header {
- border: 1px solid #ECECEC;  
+ border-bottom: 1px solid #ECECEC;  
 }
 .page-header {
   /*outline: 1px solid tomato;*/
@@ -89,6 +89,7 @@ body {
 /*nav*/
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .logo-link {
@@ -101,11 +102,6 @@ body {
 }
 .logo-link > span {
   color: #2196f3;
-}
-.nav .link {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .site-nav-link {
   display: block;
@@ -163,15 +159,13 @@ body {
 .mail-link:focus {
   color: var(--accent-color);
 }
-
 /*===========END HEADER==========*/
 /*===========HERO==========*/
 .hero {
-  margin-bottom: 94px;
-
+  padding-top: 94px;
+  padding-bottom: 94px;
   text-align: center;
   background-color: var(--background-black);
-
 }
 .hero-title {
   margin-top: 0;  
@@ -211,8 +205,8 @@ body {
 /*===========END HERO==========*/
 /*===========FEATURES==========*/
 .features {
-  margin-bottom: 94px;
-  
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features-title {
   margin-top: 0;
@@ -243,7 +237,7 @@ body {
 /*===========END FEATURES==========*/
 /*===========WHAT ARE WE DOING===========*/
 .what-are-we-doing {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .what-are-we-doing-title {
   font-size: 36px;
@@ -308,6 +302,10 @@ body {
 .our-team-box {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 36px;
+  padding-right: 36px;
+
+  background-color: var(--background-white);
 }
 /*===========END OUR TEAM==========*/
 /*===========FOOTER==========*/
@@ -322,10 +320,9 @@ body {
 .footer-list .footer-item + .footer-item {
   margin-top: 9px;
 }
-.footer-logo {
-  margin-bottom: 20px;
-}
 .footer-logo-link {
+  margin-bottom: 20px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -398,6 +395,8 @@ margin-top: -30px;
   background: var(--secondary-background);
 }
 .portfolio-title {
+  margin-bottom: 4px;
+  
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -412,6 +411,8 @@ margin-top: -30px;
 }
 .portfolio-box {
   padding: 20px 24px;
-  border: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
 }
 /*===========END PORTFOLIO==========*/
